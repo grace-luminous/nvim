@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/santhosh/Personal/Notes/coding/type_script/practice_files'
+let g:netrw_dirhist_2='/Users/santhosh/.config/nvim/plug-config'
+let g:netrw_dirhist_1='/Users/santhosh/.config/nvim'
+let g:netrw_dirhist_0='/Users/santhosh/.config/nvim/plug-config'
+let g:netrw_dirhist_9='/Users/santhosh/.config/nvim'
+let g:netrw_dirhist_8='/Users/santhosh/.config/nvim/plug-config'
+let g:netrw_dirhist_7='/Users/santhosh/Personal/Notes/coding/type_script/practice_files'
+let g:netrw_dirhist_6='/Users/santhosh/.config/nvim/plug-config'
+let g:netrw_dirhist_5='/Users/santhosh/.config/nvim'
+let g:netrw_dirhist_4='/Users/santhosh/.config'
