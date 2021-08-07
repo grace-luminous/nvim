@@ -32,17 +32,8 @@ set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲
 set showtabline=2
 set noshowmode
 
-" In insert or command mode, move normally by using Ctrl
-inoremap <C-x> <Bs>
-cnoremap <C-x> <Bs>
-inoremap <C-h> <Left>
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-l> <Right>
-cnoremap <C-h> <Left>
-cnoremap <C-j> <Down>
-cnoremap <C-k> <Up>
-cnoremap <C-l> <Right>
+let mapleader = ","
+
 command PR Prettier
 command FI Files
 command GFI GFiles
