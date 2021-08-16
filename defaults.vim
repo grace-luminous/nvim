@@ -39,6 +39,7 @@ command FI Files
 command GFI GFiles
 command BUF Buffers
 command GDS Gdiffsplit
+nmap <Leader>pr <Plug>(Prettier)
 
 " file associations
 augroup JsonToJsonc
