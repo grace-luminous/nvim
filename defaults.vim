@@ -39,6 +39,13 @@ command FI Files
 command GFI GFiles
 command BUF Buffers
 command GDS Gdiffsplit
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+
 nmap <Leader>pr <Plug>(Prettier)
 
 " file associations
