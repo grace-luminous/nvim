@@ -32,23 +32,26 @@ set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲
 set showtabline=2
 set noshowmode
 
-let mapleader = ","
-
 command PR Prettier
 command FI Files
 command GFI GFiles
 command BUF Buffers
 command GDS Gdiffsplit
+command NT NERDTreeToggle
+command NF NERDTreeFind
 
-inoremap " ""<left>
-inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
+inoremap < <><left>
 
-nmap <Leader>pr <Plug>(Prettier)
+let mapleader = ","
 
 " file associations
 augroup JsonToJsonc
     autocmd! FileType json set filetype=jsonc
 augroup END
+
+let g:python_host_prog = '/usr/bin/python2'
+let g:python3_host_prog = '/opt/homebrew/bin/python3'
+
