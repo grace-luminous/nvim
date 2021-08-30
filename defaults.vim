@@ -5,6 +5,7 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set laststatus=2
+set splitbelow splitright
 
 if !has('gui_running')
 	set t_Co=256

@@ -1,4 +1,4 @@
-let g:coc_global_extensions = ['coc-snippets', 'coc-html', 'coc-eslint', 'coc-vimlsp', 'coc-tsserver', 'coc-python', 'coc-json', 'coc-css']
+let g:coc_global_extensions = ['coc-explorer', 'coc-snippets', 'coc-html', 'coc-eslint', 'coc-vimlsp', 'coc-tsserver', 'coc-python', 'coc-json', 'coc-css']
 "
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
@@ -12,7 +12,7 @@ set nobackup
 set nowritebackup
 
 " Give more space for displaying messages.
-set cmdheight=2
+set cmdheight=1
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
@@ -165,3 +165,5 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+:nnoremap <space>e :CocCommand explorer<CR>
