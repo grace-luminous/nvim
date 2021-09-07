@@ -2,9 +2,7 @@
 " set expandtab
 set cmdheight=1
 set shiftwidth=2
-set softtabstop=2
-set tabstop=2
-set laststatus=2
+set softtabstop=2 set tabstop=2 set laststatus=2
 set splitbelow splitright
 
 if !has('gui_running')
@@ -45,6 +43,10 @@ inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
 inoremap < <><left>
+" <C> CTRL
+" <silent> execute command silently
+" <CR> is carriage return
+" nnoremap <silent> <C-p> :Files<CR>
 
 let mapleader = ","
 
@@ -55,4 +57,4 @@ augroup END
 
 let g:python_host_prog = '/usr/bin/python2'
 let g:python3_host_prog = '/opt/homebrew/bin/python3'
-
+let g:ale_echo_msg_format = '%linter% says %s'

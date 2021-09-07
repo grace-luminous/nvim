@@ -9,6 +9,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'joshdick/onedark.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'honza/vim-snippets'
 Plug 'mhinz/vim-signify'
 Plug 'dense-analysis/ale'

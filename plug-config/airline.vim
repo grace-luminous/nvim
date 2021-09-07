@@ -14,5 +14,5 @@ let g:airline_right_sep = ''
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% '])
 
 " Switch to your current theme
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'nord'
 

@@ -12,3 +12,4 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/vimwiki.vim
 source $HOME/.config/nvim/plug-config/neardtree.vim
 source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/nord.vim
