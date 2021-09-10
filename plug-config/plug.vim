@@ -18,6 +18,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vimwiki/vimwiki'
 Plug 'preservim/nerdtree'
+Plug 'dyng/ctrlsf.vim'
 
 " Initialize plugin system
 call plug#end()
