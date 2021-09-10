@@ -11,7 +11,6 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'joshdick/onedark.vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'honza/vim-snippets'
-Plug 'mhinz/vim-signify'
 Plug 'dense-analysis/ale'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-fugitive'
