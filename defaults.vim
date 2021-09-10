@@ -1,5 +1,4 @@
 " set expandtab
-what the funck
 set cmdheight=1
 set shiftwidth=2
 set softtabstop=2
