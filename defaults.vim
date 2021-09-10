@@ -1,8 +1,9 @@
-" by default, the indent is 2 spaces. 
 " set expandtab
 set cmdheight=1
 set shiftwidth=2
-set softtabstop=2 set tabstop=2 set laststatus=2
+set softtabstop=2
+set tabstop=2
+set laststatus=2
 set splitbelow splitright
 
 if !has('gui_running')
@@ -31,23 +32,6 @@ set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲
 set showtabline=2
 set noshowmode
 
-command PR Prettier
-command FI Files
-command GFI GFiles
-command BUF Buffers
-command GDS Gdiffsplit
-command NT NERDTreeToggle
-command NF NERDTreeFind
-
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap < <><left>
-" <C> CTRL
-" <silent> execute command silently
-" <CR> is carriage return
-" nnoremap <silent> <C-p> :Files<CR>
-
 let mapleader = ","
 
 " file associations
@@ -58,3 +42,17 @@ augroup END
 let g:python_host_prog = '/usr/bin/python2'
 let g:python3_host_prog = '/opt/homebrew/bin/python3'
 let g:ale_echo_msg_format = '%linter% says %s'
+
+nnoremap <silent> <leader>s :Rg<CR>
+nnoremap <silent> <leader>S :Rg!<CR>
+nnoremap <silent> <leader>f :Files<CR>
+nnoremap <silent> <leader>F :Files!<CR>
+nnoremap <silent> <leader>g :GFiles<CR>
+nnoremap <silent> <leader>G :GFiles!<CR>
+nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <leader>dh :diffget //3<CR>
+nnoremap <leader>dl :diffget //2<CR>
+nnoremap <leader>ds :G<CR>
+nnoremap <silent> <leader>n :NERDTreeToggle<CR>
+nnoremap <silent> <leader>N :NERDTreeFind<CR>
+
