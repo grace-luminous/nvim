@@ -47,12 +47,15 @@ nnoremap <silent> <leader>s :Rg<CR>
 nnoremap <silent> <leader>S :Rg!<CR>
 nnoremap <silent> <leader>f :Files<CR>
 nnoremap <silent> <leader>F :Files!<CR>
-nnoremap <silent> <leader>g :GFiles<CR>
-nnoremap <silent> <leader>G :GFiles!<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
-nnoremap <leader>dh :diffget //3<CR>
-nnoremap <leader>dl :diffget //2<CR>
-nnoremap <leader>ds :G<CR>
+nnoremap <silent> <leader>gf :GFiles<CR>
+nnoremap <silent> <leader>gF :GFiles!<CR>
+nnoremap <leader>gh :diffget //3<CR>
+nnoremap <leader>gl :diffget //2<CR>
+nnoremap <leader>gs :G<CR>
+nnoremap <leader>gc :Git commit<CR>
+
 nnoremap <silent> <leader>n :NERDTreeToggle<CR>
 nnoremap <silent> <leader>N :NERDTreeFind<CR>
 
+nnoremap <leader>* :CtrlSF "<C-R><C-W>"<CR>
