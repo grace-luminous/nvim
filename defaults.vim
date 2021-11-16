@@ -10,6 +10,10 @@ if !has('gui_running')
 	set t_Co=256
 endif
 
+set wildignore+=node_modules/**
+set wildignore+=out/**
+set wildignore+=android/**
+set wildignore+=ios/**
 set mmp=2000
 set number
 set incsearch

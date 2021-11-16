@@ -13,5 +13,5 @@ source $HOME/.config/nvim/plug-config/neardtree.vim
 source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/plug-config/crtlsf.vim
 
-source $HOME/.config/nvim/themes/onedark.vim
+" source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/nord.vim
