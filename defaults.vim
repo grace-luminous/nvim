@@ -11,6 +11,8 @@ if !has('gui_running')
 endif
 
 set wildignore+=node_modules/**
+set wildignore+=mockData/**
+set wildignore+=storybook/**
 set wildignore+=out/**
 set wildignore+=android/**
 set wildignore+=ios/**
@@ -35,6 +37,7 @@ set showbreak=\\ "
 set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲  
 set showtabline=2
 set noshowmode
+set mouse=a
 
 let mapleader = ","
 
