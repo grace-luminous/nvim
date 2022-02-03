@@ -20,6 +20,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'preservim/nerdtree'
 Plug 'dyng/ctrlsf.vim'
 Plug 'mattn/emmet-vim'
+Plug 'psf/black'
 
 " Initialize plugin system
 call plug#end()

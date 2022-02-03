@@ -37,7 +37,7 @@ set showbreak=\\ "
 set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲  
 set showtabline=2
 set noshowmode
-set mouse=a
+" set mouse=a
 
 let mapleader = ","
 
