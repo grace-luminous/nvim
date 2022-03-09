@@ -66,3 +66,10 @@ nnoremap <silent> <leader>n :NERDTreeToggle<CR>
 nnoremap <silent> <leader>N :NERDTreeFind<CR>
 
 nnoremap <leader>* :CtrlSF "<C-R><C-W>"<CR>
+
+" tabs
+nnoremap <C-t>n :tabnew<cr>
+nnoremap <C-t>o :tabonly<cr>
+nnoremap <C-t>h :tabprevious<cr>
+nnoremap <C-t>l :tabnext<cr>
+nnoremap <C-t>c :tabclose<cr>
