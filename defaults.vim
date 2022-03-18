@@ -37,7 +37,15 @@ set showbreak=\\ "
 set listchars=trail:·,precedes:<,extends:>,tab:→\ ,eol:↲  
 set showtabline=2
 set noshowmode
-set mouse=a
+set mouse=a 
+set foldlevelstart=99
+set foldmethod=syntax
+set nofoldenable
+
+" highlight LineNr guibg=0 guifg=0 ctermfg=0 ctermbg=0
+highlight FoldColumn guibg=0 guifg=0 ctermfg=0 ctermbg=0
+highlight clear SignColumn
+highlight clear FoldColumn
 
 let mapleader = ","
 
@@ -47,7 +55,7 @@ augroup JsonToJsonc
 augroup END
 
 let g:python_host_prog = '/usr/bin/python2'
-let g:python3_host_prog = '/opt/homebrew/bin/python3'
+let g:python3_host_prog = '/usr/bin/python3'
 let g:ale_echo_msg_format = '%linter% says %s'
 
 nnoremap <silent> <leader>s :Rg<CR>

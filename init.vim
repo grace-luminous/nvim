@@ -17,3 +17,6 @@ source $HOME/.config/nvim/plug-config/prettier.vim
 " source $HOME/.config/nvim/themes/gruvbox.vim
 source $HOME/.config/nvim/themes/gruvbox-material.vim
 
+" override vim settings
+source $HOME/.config/nvim/overrides.vim
+
