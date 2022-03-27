@@ -70,8 +70,7 @@ nnoremap <leader>gl :diffget //2<CR>
 nnoremap <leader>gs :G<CR>
 nnoremap <leader>gc :Git commit<CR>
 
-nnoremap <silent> <leader>n :NERDTreeToggle<CR>
-nnoremap <silent> <leader>N :NERDTreeFind<CR>
+nnoremap <silent> <leader>n :CocCommand explorer<CR>
 
 nnoremap <leader>* :CtrlSF "<C-R><C-W>"<CR>
 
